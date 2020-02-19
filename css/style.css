@@ -1,26 +1,37 @@
+
+/* body styling */
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
 }
 
+/* nav styling */
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #595959;
   float: left;
   position: fixed;
   width: 100%;
 }
 
-.logo {
-  margin: 20px;
-  width: 100px;
+/* navigation links */
+ul {
+  list-style-type: none;
+  float: right;
 }
 
-.large-pic {
-  width: 100%;
+li {
+  float: right;
+  padding: 30px;
 }
 
-.medium-pic {
-  width: 70%;
+a:Link, a:visited,a:active,a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .left, .right {
@@ -32,21 +43,42 @@ nav {
   float: right;
 }
 
-ul {
-  list-style-type: none;
-  float: right;
+/* logo pic */
+.logo {
+  margin: 20px;
+  width: 100px;
 }
 
-li {
-  float: right;
-  padding: 30px;
-}
-
+/* artcile styling */
 article {
   padding-top: 100px;
+  font: 1.25em/1.5 sans-serif;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+/* header area */
+h1 {
+  font: 900 3em/1.5 serif;
+}
+
+h3 {
+  font: 1.6em/1.3  serif;
+}
+
+figcaption {
+  font: .7em/1.2 sans-serif;
+}
+
+.author {
+  margin-top: 1%
+}
+
+/* article area*/
+
+.medium-pic {
+  width: 70%;
 }
